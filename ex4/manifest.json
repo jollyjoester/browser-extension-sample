@@ -1,0 +1,22 @@
+{
+  "name": "My Fourth Extension",
+  "version": "0.1",
+  "manifest_version": 2,
+
+  "description": "今いるページの背景色を帰るよ！with option page",
+
+  "permissions": [
+    "tabs", "http://*/*"
+  ],
+
+  "options_page": "options.html",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+      "default_icon": "icon19.png",
+      "default_title": "My Fourth Extension"
+  }
+}
